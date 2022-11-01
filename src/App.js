@@ -1,6 +1,7 @@
 import "./App.css";
 import data from "./data.json";
 // import logoNetflix from "./image/LogoNetflix.png";
+import Title from "./components/Title";
 
 function App() {
   // const tab1 = data;
@@ -11,7 +12,7 @@ function App() {
         {/* <img className="logo" src={logoNetflix} alt="Netflix" /> */}
         Netflix
       </div>
-      <div className="container">{console.log(data)}</div>
+      <Title data={data}></Title>
     </div>
   );
 }

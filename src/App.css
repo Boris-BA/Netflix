@@ -1,14 +1,32 @@
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: black; */
+  background-color: black;
 }
 
 .logo {
-  color: red;
+  width: 100px;
 }
 
 .container {
-  border: 3px solid red;
   margin: 0 0 40px 50px;
-  height: 500px;
+}
+
+.img-carrousel {
+  /* border: 3px solid red; */
+  width: 220px;
+  height: 123px;
+}
+
+.titre {
+  /* background-color: blue; */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.title2 {
+  /* background-color: bisque; */
+  margin-bottom: 1rem;
+  display: flex;
+  overflow-x: scroll;
 }

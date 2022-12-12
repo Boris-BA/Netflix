@@ -1,15 +1,16 @@
+import Vignette from "./Vignette";
+
 const Title = ({ data, index }) => {
   return (
-    <div className="container">
+    <div className="title">
       {data.map((elem, index) => {
         return (
-          <div>
-            <div>{elem.category}</div>
-
-            {elem.images.map((elem) => {
-              return <img className="img-carrousel" src={elem} alt="" />;
-            })}
-          </div>
+          <>
+            <div className="titre">{elem.category}</div>
+            <div className="title2">
+              <Vignette data={elem.images}></Vignette>
+            </div>
+          </>
         );
       })}
     </div>
